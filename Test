@@ -1,2 +1,5 @@
-string[] M; 											// Пустая строка М 
+string[] M; 						                        // Пустая строка М 
             Console.WriteLine("Введите массив строк через пробел"); 
+string stroka = Console.ReadLine(); 						// Ввод массива строк с клавиатуры
+            M = stroka.Split(' ');							// Разделение ввода по символу ' ' (пробел) 
+            var result = new string[M .Length];						// Переменной result присваем определяемую 
